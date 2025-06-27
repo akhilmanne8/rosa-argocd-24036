@@ -1,0 +1,5 @@
+docker build -t akhilmanne/akhil-webapp-24036:latest .
+#local test
+docker run -d  -p 8080:80 akhilmanne/akhil-webapp-24036:latest .
+
+docker push akhilmanne/akhil-webapp-24036:latest

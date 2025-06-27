@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapp-service
+  namespace: 24036-ns
+spec:
+  selector:
+    app: webapp
+  ports:
+    - port: 80
+      targetPort: 80
