@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: akhilmanne/akhil-webapp-24036:latest
+          image: akhilmanne/akhil-24036-app:latest
           ports:
             - containerPort: 80
           volumeMounts:
